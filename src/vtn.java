@@ -21,7 +21,7 @@ public class vtn {
             while(rs.next()) {
                 System.out.println(rs.getInt(1));
             }
-            conexion.close();
+            conexion.close();//s
 
         } catch (Exception ex) {
             ex.printStackTrace();
